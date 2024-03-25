@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+
+    h1, h2 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    h2 {
+        border-bottom: 2px solid #3b3b3b;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    h2 .bi {
+        margin-right: 10px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    ul {
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        border-top: 2px solid #3b3b3b;
+        padding-top: 20px;
+    }
+
+    .contact p {
+        margin: 10px 0;
+    }
+
+    /* Profile photo */
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        display: block;
+        border: 4px solid #3b3b3b;
+    }
+
+    /* Portfolio/Gallery */
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .portfolio-item {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .portfolio-item img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: #3b3b3b;
+        color: #fff;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .container {
+            max-width: 90%;
+            padding: 20px;
+        }
+
+        .portfolio-item {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <div class="text-center">
+            <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+            <h1 id="name">M.Fikri Rahmat</h1>
+            <p id="title">Software Enginer</p>
+            <a href="https://github.com/DFIK"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/fikrirahmat"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+       
+        <div class="section">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <h2><span class="bi bi-award-fill"></span> Education</h2>
+                    <ul>
+                        <li>Teknik Informatika - STMIK Dharma Negara Bandung (2020)</li>
+                        <li>Rekayasa Perangkat Lunak - SMK Wikrama (2013)</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2><span class="bi bi-briefcase-fill"></span> Experience</h2>
+                    <ul>
+                        <li>PHP Programmer - PT. SQUARE GATE ONE (ESPAY) (2021 - Present)</li>
+                        <li>Full Stack Developer - PT. Mede Media Softika (2013 - 2021)</li>
+                        <li>Web Application Developer - PT. Grinova Indonesia (Jun 2013 - Nov 2013)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="bi bi-tools"></span> Skills</h2>
+            <ul>
+                <li>Programming (PHP, Javascript, CSS, HTML, VB6, VB.Net, C#, Java, Android)</li>
+                <li>Database (MYSQL, PostgreSQL, SQL Server, Oracle)</li>
+                <li>BI Tools (Qlikview, Nprinting Report)</li>
+                <li>Desain (Adobe Photoshop family)</li>
+                <li>Network (TCP / IP Network, Cisco Packet Tracker)</li>
+                <li>Lainnya (Microsoft Office & Other Microsoft Applications, Windows XP,Windows 7,8 Installation &
+                    Administration, Vbulletin, Wordpress, Prestashop)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><span class="bi bi-trophy-fill"></span> Achievements</h2>
+                    <ul>
+                        <li>Job Training at PT. Mede Media Softika</li>
+                        <li>Training Linux at Politeknikenz Prasetya Mandiri</li>
+                        <li>Competition Website (CMS), Bogor</li>
+                        <li>Competition LKS, Bogor</li>
+                        <li>Test Veta English</li>
+                        <li>Qlikview Training</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2><span class="bi bi-trophy-fill"></span> Completed Projects</h2>
+                    <ul>
+                        <li>PT BANK SYARIAH INDONESIA  - New Cash Management System</li>
+                        <li>PT BANK TABUNGAN NEGARA - Ebank Guarantee Applicaion with Integration Digital Signiture (TekenAja)</li>
+                        <li>Otoritas Jasa Keuangan - Sistem Informasi Industri keuangan non-bank</li>
+                        <li>Otoritas Jasa Keuangan -  Sistem Informasi Pengawasan Terintegrasi</li>
+                        <li>Mentri Perekonomian Indonesia - E-Office</li>
+                        <li>Bank Jabar Banten - Integrasi Pelaporan Antasena</li>
+                        <li>BPD Jogja - Integrasi Pelaporan Antasena</li>
+                        <li>Bank Indonesia - Dashboard Makroprudensial</li>
+                        <li>Bank Indonesia - Dashboard Surveillance</li>
+                        <li>Bank Indonesia - Sistem Informasi Surveillance</li>
+                        <li>Bank Indonesia - Giro Wajib Minimum</li>
+                        <li>Bank Indonesia - Sistem Informasi Makroprudensial</li>
+                        <li>PT Tamaris Hydro - Tamaris Hydro System</li>
+                        <li>PT Rajawali Indonesia - PKBL Application</li>
+                        <li>Hutama Karya - Dashboard Application</li>
+                        <li>https://Speedcreed.net</li>
+
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="section">
+            <h2><span class="bi bi-image-fill"></span> Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 - Curriculum Vitae  | Last Update 2023
+    </footer>
+    
+    <!-- Include Anime.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script>
+        // Define animations
+        const fadeIn = anime({
+            targets: '.container',
+            opacity: [0, 1],
+            translateY: ['-20px', '0'],
+            easing: 'easeInOutQuad',
+            duration: 1000,
+            delay: 200
+        });
+
+        const nameAnimation = anime({
+            targets: '#name',
+            opacity: [0, 1],
+            translateY: ['-20px', '0'],
+            easing: 'easeInOutQuad',
+            duration: 800,
+            delay: 400
+        });
+
+        const titleAnimation = anime({
+            targets: '#title',
+            opacity: [0, 1],
+            translateY: ['-20px', '0'],
+            easing: 'easeInOutQuad',
+            duration: 800,
+            delay: 600
+        });
+    </script>
+</body>
+</html>
